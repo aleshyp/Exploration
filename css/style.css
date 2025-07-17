@@ -7,6 +7,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+.container {
+  padding: 0px 50px;
+}
+
 body {
   height: 100vh;
   background: #212529;
@@ -17,7 +21,6 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 80px;
-  padding: 0 50px;
 }
 
 .navbar h2 {
@@ -103,7 +106,6 @@ body {
 
 .guarantee {
   margin-top: 50px;
-  padding: 0 50px;
   display: flex;
   flex-wrap: nowrap;
   gap: 24px;
@@ -114,13 +116,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 120px;
   width: 100%;
   border-radius: 10px;
-  padding: 0 30px;
+  padding: 15px 30px;
   border: 1px solid transparent;
   cursor: pointer;
   transition: all 0.3s ease;
+  gap: 30px;
 }
 
 .guarantee .item:hover {
@@ -136,6 +139,7 @@ body {
   align-items: center;
   justify-content: center;
   transition: background-color 0.3s ease;
+  aspect-ratio: 1;
 }
 
 .guarantee .item:hover .icon {
@@ -161,6 +165,7 @@ body {
   color: #fff;
   font-size: 15px;
   font-weight: 600;
+  text-align: center;
 }
 
 .guarantee .item > i {
@@ -174,7 +179,7 @@ body {
 }
 
 .seprator {
-  margin: 50px 50px 30px;
+  margin: 50px 0px 30px;
   padding: 10px 20px;
   background: rgba(225, 255, 255, 0.08);
   display: inline-block;
@@ -187,7 +192,6 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 80px;
-  padding: 0 50px;
 }
 
 .about img {
@@ -214,7 +218,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
+  gap: 80px;
 }
 
 .skills .left {
@@ -224,7 +228,7 @@ body {
 
 .skills .left .info h3 {
   color: #fff;
-  font-size: 30px;
+  font-size: 32px;
   margin-bottom: 20px;
 }
 
@@ -269,37 +273,6 @@ footer {
   margin-top: 80px;
 }
 
-footer .start {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: absolute;
-  background-color: #ffb742;
-  padding: 30px 25px;
-  border-radius: 15px;
-  width: 70%;
-  top: -19%;
-  left: 15%;
-}
-
-footer .start p {
-  font-size: 13px;
-}
-
-footer .start button {
-  background: transparent;
-  border: 1px solid #000;
-  cursor: pointer;
-  padding: 8px 20px;
-  border-radius: 100px;
-  transition: all 0.3s ease;
-}
-
-footer .start button:hover {
-  background-color: #fff;
-  border-color: #fff;
-}
-
 footer .cols {
   display: flex;
   align-items: start;
@@ -340,39 +313,14 @@ footer .cols .links-col a:hover {
   color: #ffb742;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1401px) {
+  .skills .right {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1239px) {
   .guarantee {
-    flex-wrap: wrap;
-  }
-
-  .skills {
-    justify-content: space-between;
-    gap: 20px;
-  }
-
-  .skills .left {
-    width: 500px;
-  }
-
-  .skills .left .info {
-    font-size: 22px;
-  }
-
-  .skills .left .info p {
-    font-size: 12px;
-  }
-
-  footer {
-    margin-top: 150px;
-  }
-
-  footer .start {
-    width: 90%;
-    left: 5%;
-    top: -20%;
-  }
-
-  footer .cols {
     flex-wrap: wrap;
   }
 
