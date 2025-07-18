@@ -90,6 +90,7 @@ body {
   font-weight: 600;
   color: #fff;
   margin-top: 8px;
+  text-align: center;
 }
 
 .main p.subtitle {
@@ -178,13 +179,17 @@ body {
   color: #ffb742;
 }
 
-.seprator {
+.seperator {
   margin: 50px 0px 30px;
   padding: 10px 20px;
   background: rgba(225, 255, 255, 0.08);
   display: inline-block;
   color: #ffb742;
   border-radius: 12px;
+}
+
+.seperator-container {
+  display: flex;
 }
 
 .about {
@@ -313,13 +318,37 @@ footer .cols .links-col a:hover {
   color: #ffb742;
 }
 
+@media screen and (max-width: 1416px) {
+  .skills,
+  .about {
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .skills .left .info h3,
+  p,
+  .about .info h3,
+  p {
+    text-align: center;
+  }
+
+  footer .cols .about-col p {
+    text-align: start;
+  }
+
+  .seperator-container {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 1401px) {
   .skills .right {
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 1239px) {
+@media screen and (max-width: 1255px) {
   .guarantee {
     flex-wrap: wrap;
   }
@@ -426,6 +455,12 @@ footer .cols .links-col a:hover {
   footer .cols .links-col {
     flex-basis: 100%;
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 579px) {
+  .main {
+    height: 100%;
   }
 }
 
