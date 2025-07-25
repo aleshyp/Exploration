@@ -409,4 +409,10 @@ footer .cols .links-col a:hover {
       padding: 0px 24px;
     }
   }
+
+  @media screen and (max-width: 375px) {
+    .main p.subtitle {
+      text-align: center;
+    }
+  }
 }
