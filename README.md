@@ -16,6 +16,3 @@ Technology Purpose
 HTML5 Structuring the content
 CSS3 Styling and layout
 Boxicons Icons and vector graphics
-
-📄 License
-This project is licensed under the MIT License.
