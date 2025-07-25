@@ -1,5 +1,7 @@
 🚀 Exploration
+
 Personal Portfolio Website
+
 Welcome to my personal portfolio! This website showcases my journey as a self-taught graphic designer, motion designer, and aspiring front-end developer. It highlights my skills, experiences, and the projects I've worked on.
 
 ✨ Features
