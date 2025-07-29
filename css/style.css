@@ -74,25 +74,18 @@ body {
 
 .navbar .menu-button .close {
   display: none;
-  transform: rotate(-90deg);
-  pointer-events: none;
 }
 
 .navbar .menu-button .hamburger {
   display: block;
-  transform: rotate(0deg);
 }
 
 #menu-toggle:checked + .navbar .menu-button .hamburger {
   display: none;
-  transform: rotate(90deg);
-  pointer-events: none;
 }
 
 #menu-toggle:checked + .navbar .menu-button .close {
   display: block;
-  transform: rotate(0deg);
-  pointer-events: auto;
 }
 
 .side-menu {
