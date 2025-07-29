@@ -73,25 +73,24 @@ body {
 }
 
 .navbar .menu-button .close {
-  opacity: 0;
+  display: none;
   transform: rotate(-90deg);
   pointer-events: none;
-  display: none;
 }
 
 .navbar .menu-button .hamburger {
-  opacity: 1;
+  display: block;
   transform: rotate(0deg);
 }
 
 #menu-toggle:checked + .navbar .menu-button .hamburger {
-  opacity: 0;
+  display: none;
   transform: rotate(90deg);
   pointer-events: none;
 }
 
 #menu-toggle:checked + .navbar .menu-button .close {
-  opacity: 1;
+  display: block;
   transform: rotate(0deg);
   pointer-events: auto;
 }
