@@ -9,15 +9,50 @@
       rel="stylesheet"
     />
     <!-- Main CSS file -->
-    <link rel="stylesheet" href="css\style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Personal Portfolio</title>
   </head>
   <body>
     <!-- Page container to apply consistent padding/margin -->
     <div class="container">
-      <!-- Navigation bar with site title and menu links -->
+      <!-- Menu toggle input -->
+      <input type="checkbox" id="menu-toggle" hidden />
+      <!-- Navigation bar -->
       <div class="navbar">
         <h2>Connor</h2>
+
+        <!-- Label toggles the checkbox -->
+        <label for="menu-toggle" class="menu-button">
+          <svg
+            class="hamburger"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+          <svg
+            class="close"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
+        </label>
+
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Skills</a></li>
@@ -25,8 +60,17 @@
           <li><a href="#">Contact</a></li>
           <li><a href="#">About</a></li>
         </ul>
-        <button class="hire-btn">Hire Me</button>
       </div>
+
+      <!-- Side Menu -->
+      <nav class="side-menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
 
       <!-- Main hero section with intro text and logo image -->
       <div class="main">
