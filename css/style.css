@@ -68,7 +68,6 @@ body {
   height: 28px;
   stroke: white;
   transition: opacity 0.3s ease, transform 0.3s ease;
-  position: absolute;
   right: 1rem;
   top: 1rem;
 }
@@ -77,6 +76,7 @@ body {
   opacity: 0;
   transform: rotate(-90deg);
   pointer-events: none;
+  display: none;
 }
 
 .navbar .menu-button .hamburger {
