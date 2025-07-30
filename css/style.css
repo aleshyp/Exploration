@@ -339,7 +339,13 @@ footer .cols .links-col a:hover {
   .side-menu a {
     color: white;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .side-menu ul li a:hover {
+    color: #ffb742;
+    transition: color 0.3s ease;
   }
 
   #menu-toggle:checked ~ .side-menu {
