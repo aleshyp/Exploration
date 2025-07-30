@@ -467,6 +467,18 @@ footer .cols .links-col a:hover {
     .container {
       padding: 0px 24px;
     }
+
+    .side-menu {
+      width: 100%;
+    }
+
+    .side-menu ul li {
+      margin-bottom: 32px;
+    }
+
+    .side-menu ul li a {
+      font-size: 20px;
+    }
   }
 
   @media screen and (max-width: 375px) {
