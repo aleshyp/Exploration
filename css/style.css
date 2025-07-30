@@ -132,7 +132,7 @@ body {
 }
 
 .guarantee {
-  margin-top: 50px;
+  margin: 50px 0px 50px;
   display: flex;
   flex-wrap: nowrap;
   gap: 24px;
@@ -206,7 +206,7 @@ body {
 }
 
 .seperator {
-  margin: 50px 0px 30px;
+  margin: 0px 0px 30px;
   padding: 10px 20px;
   background: rgba(225, 255, 255, 0.08);
   display: inline-block;
@@ -225,16 +225,22 @@ body {
   gap: 80px;
 }
 
+.about .info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .about .info h3 {
   color: #fff;
   font-size: 32px;
   font-weight: 600;
-  margin-bottom: 20px;
 }
 
 .about .info p {
   color: #ccc;
   font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .about .info button {
